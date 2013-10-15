@@ -1,3 +1,9 @@
+ack-grep (2.10-3) precise; urgency=low
+
+  * Clarify license
+
+ -- Leonard Ehrenfried <leonard.ehrenfried@gmail.com>  Wed, 15 Oct 2013 14:36:36 +0000
+
 ack-grep (2.10-2) precise; urgency=low
 
   * Initial import for ack 2.10
