@@ -3,13 +3,21 @@
 These scripts allow you to build a debian package for ack2 using the standalone
 distribution.
 
-Under Debian `ack` is called `ack-grep` and I have followed this convention.
-
 ## Installing ack2 on Ubuntu 12.04 LTS Precise Pangolin
 
 ```
 sudo add-apt-repository ppa:leonard-ehrenfried/ack2
 sudo apt-get install ack-grep
+```
+On Debian `ack` is called `ack-grep` and I have followed this convention.
+
+I have aliased this in my `.bashrc` as follows:
+
+```bash
+if [ "$os" == "Linux" ]
+then
+  alias ack="ack-grep"
+fi
 ```
 
 ## Building the debian package
