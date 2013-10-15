@@ -4,7 +4,9 @@ These scripts allow you to build a debian package for ack2 using the standlaone 
 
 ## Building the debian package
 
-To build the package simply, `fakeroot dpkg-buildpackage -b` from this project root directory. The scripts will download the correct play distribution.
+To build the package simply, `debuild -S -sd` from this project root directory.
+
+To upload it to the PPA `dput ppa:leonard-ehrenfried/ack2 ack-grep_2.10-1_source.changes`
 
 ## Licence
 
