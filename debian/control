@@ -1,0 +1,12 @@
+Source: ack-grep
+Section: perl
+Priority: extra
+Maintainer: Leonard Ehrenfried <leonard.ehrenfried@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 2.10
+Homepage: http://beyondgrep.com/
+
+Package: ack-grep
+Architecture: all
+Depends: ${misc:Depends}, perl (>= 5.10)
+Description: ack 2.0 is a greplike tool optimized for programmers searching large heterogeneous trees of source code

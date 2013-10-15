@@ -1,0 +1,7 @@
+*.log
+*.zip
+ack-grep/
+*.postinst
+*.prerm
+*.substvars
+files

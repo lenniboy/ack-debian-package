@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+#-*- makefile -*-
+# Made with the aid of dh_make, by Craig Small
+# Sample debian/rules that uses debhelper. GNU copyright 1997 by Joey Hess.
+# Some lines taken from debmake, by Christoph Lameter.
+
+# Uncomment this to turn on verbose mode.
+export DH_VERBOSE=1
+VERSION=2.10
+SRC=src/ack-$(VERSION)
+DEB_PATH=debian/ack-grep
+BIN_PATH=/usr/bin
+%:
+	dh  $@
+
+override_dh_auto_install:
+	mkdir -p $(DEB_PATH)$(BIN_PATH)
+	install $(SRC) $(DEB_PATH)$(BIN_PATH)
+	ln -s $(BIN_PATH)/ack-$(VERSION) $(DEB_PATH)/$(BIN_PATH)/ack-grep

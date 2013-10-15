@@ -1,0 +1,6 @@
+ack-grep (2.10-1) precise; urgency=low
+
+  * Revert patch which breaks CI autotest
+
+ -- Leonard Ehrenfried <leonard.ehrenfried@gmail.com>  Wed, 15 Oct 2013 11:36:36 +0000
+
