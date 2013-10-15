@@ -7,6 +7,7 @@ distribution.
 
 ```
 sudo add-apt-repository ppa:leonard-ehrenfried/ack2
+sudo apt-get update
 sudo apt-get install ack-grep
 ```
 On Debian `ack` is called `ack-grep` and I have followed this convention.
