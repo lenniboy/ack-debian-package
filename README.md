@@ -15,7 +15,7 @@ On Debian `ack` is called `ack-grep` and I have followed this convention.
 I have aliased this in my `.bashrc` as follows:
 
 ```bash
-if [ "$os" == "Linux" ]
+if [ `uname` == "Linux" ]
 then
   alias ack="ack-grep"
 fi
