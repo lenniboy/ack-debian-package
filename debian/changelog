@@ -1,3 +1,9 @@
+ack-grep (2.12-1) precise; urgency=low
+
+  * Update to ack 2.12
+
+ -- Leonard Ehrenfried <leonard.ehrenfried@gmail.com>  Tue, 07 Jan 2014 13:40:26 +0100
+
 ack-grep (2.10-3) precise; urgency=low
 
   * Clarify license
