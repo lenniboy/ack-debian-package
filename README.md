@@ -23,7 +23,7 @@ fi
 
 ## Building the debian package
 
-To build the package simply, `debuild -S -sd` from this project root directory.
+To build the package run `debuild -S -sd` from the project root directory.
 
 To upload it to the PPA `dput ppa:leonard-ehrenfried/ack2 ack-grep_2.10-1_source.changes`
 

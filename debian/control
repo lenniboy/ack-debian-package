@@ -3,7 +3,7 @@ Section: perl
 Priority: extra
 Maintainer: Leonard Ehrenfried <leonard.ehrenfried@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 2.10
+Standards-Version: 2.12
 Homepage: http://beyondgrep.com/
 
 Package: ack-grep
